@@ -1,5 +1,5 @@
 import React from "react";
-import propTypes from "prop-types";
+import PropTypes from "prop-types";
 import "../Card/Card.css";
 
 const Card = ({ quote, author }) => {
@@ -14,6 +14,6 @@ const Card = ({ quote, author }) => {
 export default Card;
 
 Card.propTypes = {
-    quote: propTypes.string.isRequired,
-    author: propTypes.string.isRequired,
+    quote: PropTypes.string.isRequired,
+    author: PropTypes.string.isRequired,
 };

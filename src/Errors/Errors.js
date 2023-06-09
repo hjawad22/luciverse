@@ -1,7 +1,7 @@
 import React from "react";
 import "../Errors/Errors.css";
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
-import propTypes from "prop-types";
+import PropTypes from "prop-types";
 
 
 const Errors = ({ errorMessage }) => {
@@ -25,5 +25,5 @@ const Errors = ({ errorMessage }) => {
 export default Errors;
 
 Errors.propTypes = {
-    errorMessage: propTypes.string.isRequired
+    errorMessage: PropTypes.string.isRequired
 };
