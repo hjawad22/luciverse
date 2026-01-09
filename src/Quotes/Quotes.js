@@ -8,7 +8,7 @@ const Quotes = ({ quotes, loading }) => {
         return (
             <Card
                 quote={quote.quote}
-                author={quote.author}
+                character={quote.character}
                 key={Date.now() + index}
             />
         );
