@@ -1,14 +1,14 @@
 import React from "react";
 import Card from "../Card/Card";
 import "../Quotes/Quotes.css";
-import propTypes from "prop-types";
+import PropTypes from "prop-types";
 
 const Quotes = ({ quotes, loading }) => {
     const quoteCards = quotes.map((quote, index) => {
         return (
             <Card
                 quote={quote.quote}
-                author={quote.author}
+                character={quote.character}
                 key={Date.now() + index}
             />
         );
@@ -27,6 +27,6 @@ const Quotes = ({ quotes, loading }) => {
 export default Quotes;
 
 Quotes.prototype = {
-    quotes: propTypes.arrayOf(propTypes.object).isRequired,
-    loading: propTypes.string.isRequired
+    quotes: PropTypes.arrayOf(PropTypes.object).isRequired,
+    loading: PropTypes.string.isRequired
 };

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import propTypes from "prop-types"
+import PropTypes from "prop-types"
 import "./Form.css";
 
 
@@ -71,6 +71,6 @@ class Form extends Component {
 export default Form;
 
 Form.propTypes = {
-    addQuote: propTypes.func.isRequired
+    addQuote: PropTypes.func.isRequired
 };
 
