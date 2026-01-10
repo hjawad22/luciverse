@@ -14,11 +14,6 @@ const Card = ({ quote, character }) => {
 export default Card;
 
 Card.propTypes = {
-<<<<<<< Updated upstream
     quote: PropTypes.string.isRequired,
-    author: PropTypes.string.isRequired,
-=======
-    quote: propTypes.string.isRequired,
-    character: propTypes.string.isRequired,
->>>>>>> Stashed changes
+    character: PropTypes.string.isRequired,
 };
