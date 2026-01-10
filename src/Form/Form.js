@@ -8,7 +8,7 @@ class Form extends Component {
         super(props);
         this.state = {
             quote: '',
-            author: '',
+            character: '',
             error: ''
         }
     }
@@ -20,7 +20,7 @@ class Form extends Component {
     submitQuote = (event) => {
         event.preventDefault();
 
-        if (this.state.quote && this.state.author) {
+        if (this.state.quote && this.state.character) {
             this.setState({ error: '' })
             const newQuote = {
                 id: Date.now(),
@@ -34,7 +34,7 @@ class Form extends Component {
     }
 
     clearInputs = () => {
-        this.setState({ quote: '', author: '' });
+        this.setState({ quote: '', character: '' });
     }
 
 
@@ -56,8 +56,8 @@ class Form extends Component {
                         type="text"
                         className="input"
                         placeholder="who would say it?"
-                        name="author"
-                        value={this.state.author}
+                        name="character"
+                        value={this.state.character}
                         onChange={event => this.handleChange(event)}
                     />
 
