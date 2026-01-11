@@ -6,7 +6,12 @@ This abstract highlights the key aspects of the LuciVerse App, which is develope
 ## Illustrations
 ![giff of luciVerse](https://media.giphy.com/media/paqWW7lNZypnr6YmTb/giphy.gif))
 
+## This Application Uses My Luciverse API
+**Deployed API:** [https://luciverse-api.onrender.com/api/quotes](https://luciverse-api.onrender.com/api/quotes)
 
+**GitHub Repository:** [https://github.com/hjawad22/luciverse-api](https://github.com/hjawad22/luciverse-api)
+
+---
 ## Context
 This application was completed over 5 days in Module3 (week 5) of [Turing School of Software and Design](https://turing.edu/)'s Front End Engineering program. The project was built to match the specifications of [this project rubric](https://frontend.turing.edu/projects/module-3/showcase.html)).
 
@@ -19,7 +24,7 @@ This application was completed over 5 days in Module3 (week 5) of [Turing School
 - JSX
 
 ## Deployed Pages
-[Check it out here ](https://luciverse.vercel.app/)
+[Check it out here ](https://luciverse-qjxr-rm92ririg-hjawad22s-projects.vercel.app/)
 
 ## Wins
 Responsive Design: Successfully incorporated media queries to ensure that the app is visually appealing and functional across different devices and screen sizes. The implementation of responsive design allows users to have a seamless experience regardless of the device they are using.
