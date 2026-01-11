@@ -1,6 +1,6 @@
 describe('homepage spec', () => {
   beforeEach(() => {
-    cy.intercept('GET', 'https://lucifer-quotes.vercel.app/api/quotes/10', {
+    cy.intercept('GET', 'https://luciverse-api.onrender.com/api/quotes', {
       statusCode: 200,
       fixture: 'quotes'
     })
