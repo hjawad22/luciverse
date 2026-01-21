@@ -1,4 +1,4 @@
-# Lucifier
+# LuciVerse
 
 ## Abstract
 This abstract highlights the key aspects of the LuciVerse App, which is developed specifically for fans of the TV show Lucifer. The app offers a dynamic and engaging experience, providing users with randomized quotes that are refreshed on each visit. Additionally, users have the ability to contribute their own quotes, reflecting the personalities of their favorite characters. The app also features an informative section that provides an overview of the show, enhancing users' understanding and connection to the series. The LuciVerse App aims to create an immersive platform for fans to explore, enjoy, and actively participate in the world of Lucifer.
