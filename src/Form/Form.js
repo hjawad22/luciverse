@@ -16,17 +16,19 @@ class Form extends Component {
     handleChange = (event) => {
         this.setState({ [event.target.name]: event.target.value });
     }
-
-    submitQuote = (event) => {
+    
+ submitQuote = (event) => {
         event.preventDefault();
 
-        if (this.state.quote && this.state.character) {
-            this.setState({ error: '' })
-            const newQuote = {
-                id: Date.now(),
-                ...this.state
-            }
-            this.props.addQuote(newQuote);
+        const { quote, character } = this.state;
+
+        if (quote && character) {
+            this.setState({ error: '' });
+
+            // Call the addQuote function passed from App
+            this.props.addQuote(quote, character);
+
+            // Clear the input fields
             this.clearInputs();
         } else {
             this.setState({ error: 'Please fill in all the required fields.' });

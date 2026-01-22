@@ -1,7 +1,7 @@
 import "./App.css";
 import Nav from "../Nav/Nav";
 import { Component } from "react";
-import { fetchQuotes } from "../apiCalls";
+import { fetchQuotes, postQuote } from "../apiCalls";
 import { Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
 import Quotes from "../Quotes/Quotes";
 import About from "../About/About";
@@ -32,9 +32,16 @@ class App extends Component {
       });
   };
 
-  addQuote = (newQuote) => {
-    this.setState({ quotes: [...this.state.quotes, newQuote] });
+  addQuote = (quoteText, characterName) => {
+    postQuote(quoteText, characterName)
+      .then(newQuote => {
+        this.setState(prevState => ({
+          quotes: [...prevState.quotes, newQuote]
+        }));
+      })
+      .catch(err => this.setState({ errorMessage: err.message }));
   }
+
 
   render() {
     return (
