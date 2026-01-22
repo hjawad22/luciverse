@@ -7,13 +7,17 @@ This abstract highlights the key aspects of the LuciVerse App, which is develope
 ![giff of luciVerse](https://media.giphy.com/media/paqWW7lNZypnr6YmTb/giphy.gif))
 
 ## This Application Uses My Luciverse API
-**Deployed API:** [https://luciverse-api.onrender.com/api/quotes](https://luciverse-api.onrender.com/api/quotes)
+**Deployed API:** [Check it out here](https://luciverse-api.onrender.com/api/quotes)
 
-**GitHub Repository:** [https://github.com/hjawad22/luciverse-api](https://github.com/hjawad22/luciverse-api)
+**GitHub Repository:** [Check it out here](https://github.com/hjawad22/luciverse-api)
 
 ---
+
+## Deployed UI
+[Check it out here ](https://luciverse-qjxr-rm92ririg-hjawad22s-projects.vercel.app/)
+
 ## Context
-This application was completed over 5 days in Module3 (week 5) of [Turing School of Software and Design](https://turing.edu/)'s Front End Engineering program. The project was built to match the specifications of [this project rubric](https://frontend.turing.edu/projects/module-3/showcase.html)).
+This application was completed over 5 days in Module 3 (week 5) of [Turing School of Software and Design](https://turing.edu/)'s Front-End Engineering program. The project was built to match the specifications of [this project rubric](https://frontend.turing.edu/projects/module-3/showcase.html).
 
 ## Technologies used
 - React
@@ -23,9 +27,6 @@ This application was completed over 5 days in Module3 (week 5) of [Turing School
 - CSS
 - JSX
 
-## Deployed Pages
-[Check it out here ](https://luciverse-qjxr-rm92ririg-hjawad22s-projects.vercel.app/)
-
 ## Wins
 Responsive Design: Successfully incorporated media queries to ensure that the app is visually appealing and functional across different devices and screen sizes. The implementation of responsive design allows users to have a seamless experience regardless of the device they are using.
 
@@ -34,16 +35,28 @@ Project Organization: Maintained a well-organized project structure, including p
 ## Challenges
 Cypress Testing: Implementing effective Cypress tests posed challenges during the development process. Overcoming issues such as writing comprehensive test cases and dealing with complex interactions required careful planning and debugging. However, by persevering through these challenges, I was able to achieve a robust and reliable testing framework, ensuring the app's quality and stability.
 
+
 ## Improvements
 Going forward, some ideal extensions would be: 
   -  A search feature can be implemented to allow users to search quotes by author.
   -  An additional feature of favoriting quotes can be implemented.
 
 ## Installation
-- using the terminal, clone the [Repo](https://github.com/hjawad22/luciverse)
-- `cd` into luciVerse directory
-- run `npm i`
-- run `npm start`
+1. Clone the repository.
+2. `cd` into the `luciVerse` directory.
+3.  Install dependencies:
+   
+` npm install`
+
+## Start the development server:
+
+ `npm start`
+
+## Running Cypress Tests
+Open Cypress in interactive mode:
+
+ `npm run cypress`
+
 
 ## Contributors
-- Houda Jawad - [GitHub](https://github.com/hjawad22) | [LinkedIn](https://www.linkedin.com/in/houda-jawad-b0315675/)
+Houda Jawad - [GitHub](https://github.com/hjawad22) | [LinkedIn](https://www.linkedin.com/in/houda-jawad-b0315675/)
